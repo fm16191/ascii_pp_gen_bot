@@ -41,7 +41,7 @@ async def image_to_ascii(author):
 
 # IMPORT BOT : https://discord.com/api/oauth2/authorize?client_id=765714860221661204&permissions=8&scope=bot
 
-TOKEN = "NzY1NzE0ODYwMjIxNjYxMjA0.X4Y1iA.WJKFKe3vZ_CDsMgkkZ4g-iFUAgM"
+TOKEN = open("token.txt","r").readlines()[0]
 prefix = "&"
 # client = commands.Bot(command_prefix = prefix)
 client = discord.Client()
